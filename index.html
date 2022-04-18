@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ACTIVIDADES DEL DÍA</title>
+    <!-- BOOTSTRAP 4 BOOTSWATCH LUX THEME -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar" style="background-color:rgb(183, 0, 255);">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: antiquewhite;">ACTIVIDADES DEL DÍA</a>
+        <img src="https://w7.pngwing.com/pngs/366/632/png-transparent-paper-stationery-pencil-notebook-pen-pencil-text-logo.png" width="250" heidght="250"; alt="Logo" class="nav-brand">
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-4">
+
+          <div class="card">
+            <div class="card-body"style="background-color:#66B3FF">
+              <!-- FORM TO ADD TASKS -->
+              <form id="formTask">
+                <div class="form-group">
+                  <p style="color:rgb(0, 0, 0)">Aquí puedes organizar el cálculo del tiempo y la fijación de festividades, obligaciones y cualquier evento considerado importante en dicha fecha.</p>
+                  <input type="text" id="title" placeholder="Nuevo evento" class="form-control">
+                </div>
+                <div class="form-group">
+                  <textarea id="description" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type ="date" id="date" cols="30" rows="10" class="form-control"></textarea> 
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" style="background-color:rgb(128, 3, 177);">Guardar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div id="tasks"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+    <script>alert("Bienvenidos a ACTIVIDADES DEL DÍA creado por Heidy Jaimes")</script>
+  </body>
+</html>

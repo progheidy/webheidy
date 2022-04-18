@@ -1,0 +1,37 @@
+body{
+    background:url("https://w7.pngwing.com/pngs/366/632/png-transparent-paper-stationery-pencil-notebook-pen-pencil-text-logo.png"); 
+    width: 250; height: 250;
+}
+nav{
+    background-color:	#972bfd;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 300px;
+  }
+  .tasks{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img{
+    width: 50px;
+}
+ #tasks {
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+#description{
+    background-color: lightblue;
+}
